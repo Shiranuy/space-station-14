@@ -49,14 +49,14 @@
     fillPrototype: SyndieMiniBomb
     distance: 4
     capacity: 3
-    initialBeepDelay: 0
-    beepInterval: 0.5
-    delay: 3.5
   - type: OnUseTimerTrigger
     beepSound:
       path: "/Audio/Effects/minibombcountdown.ogg"
       params:
         volume: 12
+    initialBeepDelay: 0
+    beepInterval: 0.5
+    delay: 3.5
   - type: EmitSoundOnTrigger
     sound:
       path: "/Audio/Machines/door_lock_off.ogg"
