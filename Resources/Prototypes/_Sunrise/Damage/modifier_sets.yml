@@ -11,10 +11,10 @@
   id: Swine
   coefficients:
     Blunt: 0.5
-    Slash: 0.7
-    Piercing: 0.7
-    Cold: 0.5
-    Heat: 0.5
+    Slash: 0.75
+    Piercing: 0.75
+    Cold: 0.7
+    Heat: 0.75
 
 - type: damageModifierSet
   id: Predator
