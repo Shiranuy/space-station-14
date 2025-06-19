@@ -189,25 +189,6 @@
       sprite: Objects/Weapons/Grenades/empgrenade.rsi
       state: icon
 
-#Sunrise-start
-- type: entity
-  parent: BaseImplantAction
-  id: ActionActivateEmpImplantOfficial
-  name: Activate EMP
-  description: Triggers a small EMP pulse around you. Does not recharge
-  components:
-  - type: LimitedCharges
-    maxCharges: 3
-  - type: Action
-    checkCanInteract: false
-    useDelay: 5
-    itemIconStyle: BigAction
-    priority: -20
-    icon:
-      sprite: Objects/Weapons/Grenades/empgrenade.rsi
-      state: icon
-#Sunrise-end
-
 # Sunrise-Start  #PR Wiz #31782
 - type: entity
   id: ActionActivateSmokeGrenadeImplant

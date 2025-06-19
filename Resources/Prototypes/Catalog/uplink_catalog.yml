@@ -1579,27 +1579,11 @@
   productEntity: EmpImplanter
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 4
-  cost:
-    Telecrystal: 6
-  categories:
-    - UplinkImplants
-
-#Sunrise-start
-- type: listing
-  id: UplinkEmpImplanterOfficial
-  name: uplink-emp-implanter-official-name
-  description: uplink-emp-implanter-official-desc
-  icon: { sprite: /Textures/Objects/Magic/magicactions.rsi, state: shield }
-  productEntity: EmpImplanterOfficial
-  discountCategory: veryRareDiscounts
-  discountDownTo:
-    Telecrystal: 1
-  cost:
     Telecrystal: 2
+  cost:
+    Telecrystal: 4
   categories:
     - UplinkImplants
-#Sunrise-end
 
 - type: listing
   id: UplinkRadioImplanter

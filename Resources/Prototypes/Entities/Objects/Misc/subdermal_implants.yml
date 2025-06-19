@@ -247,23 +247,6 @@
       energyConsumption: 50000
       disableDuration: 10
 
-#Sunrise-start
-- type: entity
-  parent: BaseSubdermalImplant
-  id: EmpImplantOfficial
-  name: EMP implant
-  description: This implant creates an electromagnetic pulse when activated.
-  #categories: [ HideSpawnMenu ]  Sunrsie-Edit
-  components:
-    - type: SubdermalImplant
-      implantAction: ActionActivateEmpImplantOfficial
-    - type: TriggerImplantAction
-    - type: EmpOnTrigger
-      range: 3 #2.75 Sunrise-Edit
-      energyConsumption: 50000
-      disableDuration: 10
-#Sunrise-end
-
 #Sunrise-start #PR Wiz #31782
 - type: entity
   parent: BaseSubdermalImplant
