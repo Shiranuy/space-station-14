@@ -35,10 +35,9 @@
   productEntity: WeaponPistolCobraBiocode # Sunrise-edit
   discountCategory: rareDiscounts
   discountDownTo:
-    # Sunrise - Edit
-    Telecrystal: 1
+    Telecrystal: 2
   cost:
-    Telecrystal: 3
+    Telecrystal: 3 # Sunrise-Edit
   categories:
   - UplinkWeaponry
 
@@ -121,10 +120,9 @@
   productEntity: ClothingHandsGlovesNorthStar
   discountCategory: veryRareDiscounts
   discountDownTo:
-    # Sunrise - Edit
     Telecrystal: 4
   cost:
-    Telecrystal: 7
+    Telecrystal: 7 # Sunrise-Edit
   categories:
   - UplinkWeaponry
 
@@ -928,10 +926,9 @@
   productEntity: ChameleonProjector
   discountCategory: rareDiscounts
   discountDownTo:
-    # Sunrise - Edit
-    Telecrystal: 3
+    Telecrystal: 3 # Sunrise-Edit
   cost:
-    Telecrystal: 6
+    Telecrystal: 6 # Sunrise-Edit
   categories:
   - UplinkDeception
 
@@ -1328,7 +1325,7 @@
   description: uplink-cameraBug-desc
   productEntity: CameraBug
   cost:
-    Telecrystal: 4
+    Telecrystal: 3 # Sunrise-Edit
   categories:
   - UplinkDisruption
 
@@ -1344,7 +1341,7 @@
   discountDownTo:
     Telecrystal: 8
   cost:
-    Telecrystal: 12
+    Telecrystal: 12 # Sunrise-Edit
   categories:
   - UplinkAllies
 
@@ -1563,7 +1560,7 @@
   discountDownTo:
     Telecrystal: 2
   cost:
-    Telecrystal: 4
+    Telecrystal: 4 # Sunrise-Edit
   categories:
     - UplinkImplants
   #Sunrise-start
@@ -1582,11 +1579,27 @@
   productEntity: EmpImplanter
   discountCategory: veryRareDiscounts
   discountDownTo:
-    Telecrystal: 3
+    Telecrystal: 4
   cost:
-    Telecrystal: 5
+    Telecrystal: 6
   categories:
     - UplinkImplants
+
+#Sunrise-start
+- type: listing
+  id: UplinkEmpImplanterOfficial
+  name: uplink-emp-implanter-official-name
+  description: uplink-emp-implanter-official-desc
+  icon: { sprite: /Textures/Objects/Magic/magicactions.rsi, state: shield }
+  productEntity: EmpImplanterOfficial
+  discountCategory: veryRareDiscounts
+  discountDownTo:
+    Telecrystal: 1
+  cost:
+    Telecrystal: 2
+  categories:
+    - UplinkImplants
+#Sunrise-end
 
 - type: listing
   id: UplinkRadioImplanter
@@ -1698,7 +1711,7 @@
   discountDownTo:
     Telecrystal: 2
   cost:
-    Telecrystal: 3
+    Telecrystal: 3 # Sunrise-Edit
   categories:
   - UplinkImplants
 
@@ -1952,7 +1965,7 @@
   description: uplink-clothing-conducting-gloves-desc
   productEntity: ClothingHandsGlovesConducting
   cost:
-    Telecrystal: 1
+    Telecrystal: 1 # Sunrise-Edit
   categories:
   - UplinkWearables
 
@@ -1973,10 +1986,9 @@
   productEntity: ClothingOuterHardsuitChameleon
   discountCategory: rareDiscounts
   discountDownTo:
-    # Sunrise - Edit
-    Telecrystal: 4
+    Telecrystal: 4 # Sunrise-Edit
   cost:
-    Telecrystal: 6
+    Telecrystal: 6 # Sunrise-Edit
   categories:
   - UplinkWearables
 

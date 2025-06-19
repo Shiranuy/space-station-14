@@ -230,6 +230,16 @@
     - type: Implanter
       implant: EmpImplant
 
+#Sunrise-start
+- type: entity
+  id: EmpImplanterOfficial
+  name: EMP implanter
+  parent: BaseImplantOnlyImplanterSyndi
+  components:
+    - type: Implanter
+      implant: EmpImplantOfficial
+#Sunrise-end
+
 - type: entity
   id: ScramImplanter
   name: scram implanter
